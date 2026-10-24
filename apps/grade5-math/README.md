@@ -88,3 +88,5 @@ npm run build
 - [上游同步流程](UPSTREAM.md)
 
 应用、发布脚本和运行数据与原始知识图谱分离；不要把 SQLite、SSH 私钥或构建产物提交进 Git。
+
+服务器入口：https://start.deey.top（HTTP 自动跳转）。匿名数据和当前重置限制见 [数据说明](DATA.md)。

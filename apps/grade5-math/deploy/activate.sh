@@ -81,9 +81,11 @@ for attempt in $(seq 1 20); do
 done
 [ "$healthy" = 1 ]
 if [ "$new_conf" = 1 ]; then systemctl reload nginx; fi
+ingress_scheme=http; ingress_port=80
+if grep -Eq 'listen[[:space:]]+443[[:space:]]+ssl' "$conf"; then ingress_scheme=https; ingress_port=443; fi
 ingress_ready=0
 for attempt in $(seq 1 20); do
-  if curl -fsS --max-time 2 --resolve start.deey.top:80:127.0.0.1 http://start.deey.top/api/health > "$backup/nginx-health.json" 2>/dev/null && grep -q "\"revision\":\"${release##*-}" "$backup/nginx-health.json"; then ingress_ready=1; break; fi
+  if curl -fsS --max-time 2 --resolve "start.deey.top:$ingress_port:127.0.0.1" "$ingress_scheme://start.deey.top/api/health" > "$backup/nginx-health.json" 2>/dev/null && grep -q "\"revision\":\"${release##*-}" "$backup/nginx-health.json"; then ingress_ready=1; break; fi
   sleep 1
 done
 [ "$ingress_ready" = 1 ]

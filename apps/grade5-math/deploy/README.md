@@ -1,6 +1,6 @@
 # 小步数学：本地编译、服务器运行
 
-这是简单功能验证项目。首发 HTTP 地址为 http://start.deey.top；HTTPS 后置，不阻塞本次试用。
+这是简单功能验证项目。当前地址为 https://start.deey.top；HTTP 自动跳转，ACME 验证目录保留 HTTP 访问。HTTPS 已于 2026-10-24 启用。
 
 ## 发布模型
 
@@ -68,14 +68,19 @@ curl -fsS http://127.0.0.1:18081/api/health
 
 不自动恢复数据库：当前会话内容自带快照，单纯程序回滚不应丢弃新作答。未来涉及数据库结构变化时另做迁移/恢复方案。回滚应用版本不需要 reload Nginx。
 
-## HTTPS 后置步骤
+## HTTPS 与自动续期（已启用）
 
-服务器已有 Certbot 和 `mkd-app.idaay.com` 的证书。新站单独申请 `start.deey.top`，不扩展、替换或重签旧站证书。
+- 独立 Let’s Encrypt 免费证书：`/etc/letsencrypt/live/start.deey.top/`，本轮到期日 2027-01-22。
+- Nginx HTTPS 模板：`start.deey.top.https.conf`，只覆盖本域名文件，复用 mkd 现有 TLS 参数和 DH 参数文件。
+- 在 `/etc/sysconfig/grade5-math` 设置 `MATH_EXTRA_FLAGS=-secure-cookies`，新发匿名 Cookie 带 Secure。
+- 认证方式：webroot，目录 `/var/www/grade5-math-acme`；独立续期配置 `/etc/letsencrypt/renewal/start.deey.top.conf`。
+- 复用服务器已有并启用的 `certbot-renew.timer`，不创建第二套 cron/timer。它每天两个计划时段检查，含随机延迟，仅需要续签时才更新证书。
+- 新证书的专属 `renew_hook` 指向 `/opt/grade5-math/ops/certbot-deploy.sh`：仅处理本域名，先 `nginx -t`，成功再平滑 reload。这个目录不随应用版本回滚消失。
+- 2026-10-24 新证书模拟续期通过；安装的 Certbot 1.22.0 在 dry-run 时不执行 deploy hook，本次另外执行一次钩子，校验和 reload 成功。
+- 后续应用发布脚本识别当前站点 HTTP/HTTPS，再选择相应本机入口检查，不把 HTTP 301 误认为发布失败。常规发布仍不覆盖本域名 Nginx 配置。
 
-1. 确认 HTTP 站点可用、A/AAAA 解析正确，确认 `/.well-known/acme-challenge/` 指向 `/var/www/grade5-math-acme`。
-2. 用 `certbot certonly --webroot -w /var/www/grade5-math-acme -d start.deey.top` 仅取新证书；不使用会自动重写现有站点的 nginx 安装模式。
-3. 备份本项目 HTTP 配置；仅在 `start.deey.top.conf` 中增加该域名 443 服务和 HTTP 跳转，采用服务器现有 SSL 参数文件。
-4. 在 `/etc/sysconfig/grade5-math` 设置 `MATH_EXTRA_FLAGS=-secure-cookies`，重启本应用；`nginx -t` 后 reload。不要凭未经信任的客户端头决定 Cookie 的 Secure 属性。
-5. 检查新站证书、HTTPS 健康、Cookie Secure 和两旧站基线；确认已有 Certbot 续期机制，并为新证书安排校验后 reload 钩子。
+初次配置脚本为 `enable-https.sh`，配套模板和钩子先上传到该脚本指定的 `/var/tmp/grade5-math-*` 路径，再通过 SSH 执行。已启用的服务器不需要重复执行。
 
-本次没有为 www.idaay.com 申请证书，也没有修改它既有 HTTP 行为。
+mkd 原方案是 Let’s Encrypt + Certbot nginx 插件 + 同一个 systemd timer，属于常规方案；共享定时任务最近执行成功。新站复用 CA、timer 和 TLS 参数，改用 webroot 和专属重载钩子，以便手工管理的虚拟主机不被插件自动重写。没有修改 mkd 的配置、证书或续期参数。旧站原文件哈希均保持一致。
+
+HTTPS 配置备份：`/var/backups/grade5-math/https-20261024T034629Z`。若回滚，恢复该目录的站点和环境配置，再重启本应用、校验并 reload Nginx；保留已申请证书，不删除共享续期任务。
