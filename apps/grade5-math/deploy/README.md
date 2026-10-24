@@ -52,6 +52,8 @@ bash apps/grade5-math/deploy/upload.sh /absolute/path/to/release.tgz
 
 ## 回滚
 
+同一发布包可重试：已解包目录必须与包内 SHA256SUMS 一致，再验证全部文件，不覆盖已有版本文件；每次尝试另存备份。Nginx reload 为异步平滑切换，脚本会等待该域名健康接口返回预期 revision 后再判定完成。
+
 发布脚本失败时尝试恢复本应用旧软链接、旧服务文件和服务；初次新增的 Nginx 文件会移入本次备份，再校验和 reload。失败版本和备份保留排查。
 
 手动回滚到一个已知版本时，先核对 `current`、目标版本和目标 `RELEASE.json`。在服务器执行：

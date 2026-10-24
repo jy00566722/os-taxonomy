@@ -27,6 +27,6 @@ fs.writeFileSync(path.join(pack,'RELEASE.json'),JSON.stringify({release,revision
 const files=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p);else files.push(p);}}walk(pack);
 fs.writeFileSync(path.join(pack,'SHA256SUMS'),files.sort().map(p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex')+'  '+path.relative(pack,p)).join('\n')+'\n');
 NODE
-COPYFILE_DISABLE=1 tar -czf "$pack.tgz" -C "$pack" .
+COPYFILE_DISABLE=1 tar --no-xattrs -czf "$pack.tgz" -C "$pack" .
 shasum -a 256 "$pack.tgz"
 printf 'Release artifact: %s.tgz\n' "$pack"
