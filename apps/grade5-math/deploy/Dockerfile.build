@@ -1,0 +1,14 @@
+# Build on the developer's machine. No compiler or container is installed remotely.
+FROM golang:1.24.3-alpine3.21@sha256:ef18ee7117463ac1055f5a370ed18b8750f01589f13ea0b48642f5792b234044 AS build
+RUN apk add --no-cache build-base
+WORKDIR /work/backend
+COPY backend/go.mod backend/go.sum ./
+RUN go mod download
+COPY backend/ ./
+COPY content/ /work/content/
+ARG REVISION
+ARG BUILT_AT
+RUN CGO_ENABLED=1 go test -tags sqlite_omit_load_extension ./internal/mathapp
+RUN CGO_ENABLED=1 go build -trimpath -tags sqlite_omit_load_extension -ldflags "-s -w -linkmode external -extldflags -static -X main.revision=${REVISION} -X main.builtAt=${BUILT_AT}" -o /out/math-server ./cmd/server
+FROM scratch AS artifact
+COPY --from=build /out/math-server /math-server

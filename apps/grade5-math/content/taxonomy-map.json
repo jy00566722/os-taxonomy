@@ -1,0 +1,535 @@
+{
+  "taxonomyVersion": "v1",
+  "topicFileSha256": "525aa943165f57c02b7e69fd6160ed8fc8263501b7893f1ec681ca9590d19cfd",
+  "dependencyFileSha256": "cfe9217d7b23d39eb82d1366779b3641bc27f969c10485d99b93c3741a1d37ce",
+  "nodes": [
+    {
+      "id": "mt_0Wg5F97osg",
+      "name": "用因数与倍数解决问题",
+      "sourceName": "Factors, multiples, and primes (age 9+)"
+    },
+    {
+      "id": "mt_2ESZh70NyS",
+      "name": "理解分数的关系",
+      "sourceName": "Understanding fractions (age 9+)"
+    },
+    {
+      "id": "mt_3JgrHY221M",
+      "name": "加减等式中的未知数",
+      "sourceName": "Unknown in Addition & Subtraction"
+    },
+    {
+      "id": "mt_3rTIyJDw7-",
+      "name": "用准确的数学语言表达",
+      "sourceName": "Advanced Maths Vocabulary"
+    },
+    {
+      "id": "mt_4WaKWECpcv",
+      "name": "列出算式",
+      "sourceName": "Writing Number Sentences"
+    },
+    {
+      "id": "mt_5TBUFnCy5-",
+      "name": "把体积分开再合起来",
+      "sourceName": "Volume as additive"
+    },
+    {
+      "id": "mt_933BohS9BH",
+      "name": "比较小数大小",
+      "sourceName": "Comparing Decimals"
+    },
+    {
+      "id": "mt_AabJisinfi",
+      "name": "分数乘法",
+      "sourceName": "Multiplying fractions (age 10+)"
+    },
+    {
+      "id": "mt_Ac7oMWhyPw",
+      "name": "读写更大的数",
+      "sourceName": "Reading and writing numbers (age 10+)"
+    },
+    {
+      "id": "mt_ChjMU2GDJa",
+      "name": "条形统计图",
+      "sourceName": "Bar graphs"
+    },
+    {
+      "id": "mt_Ep7TDFuYUa",
+      "name": "数轴上的等值分数",
+      "sourceName": "Equivalent fractions on a number line"
+    },
+    {
+      "id": "mt_FHIAv6dfhU",
+      "name": "因数、倍数与质数",
+      "sourceName": "Factors, multiples, and primes"
+    },
+    {
+      "id": "mt_FP-mjXaq3B",
+      "name": "理解分数等值",
+      "sourceName": "Equivalent fractions (age 8+)"
+    },
+    {
+      "id": "mt_HLUqHJ9Y7n",
+      "name": "乘除十的数位规律",
+      "sourceName": "Patterns with Powers of Ten"
+    },
+    {
+      "id": "mt_HnKbuCliNS",
+      "name": "比较简单分数",
+      "sourceName": "Comparing fractions (age 8+)"
+    },
+    {
+      "id": "mt_IegHBHERVa",
+      "name": "十分位与百分位",
+      "sourceName": "Decimal place value (age 8+)"
+    },
+    {
+      "id": "mt_J4j7d3iAfg",
+      "name": "简单的随机实验",
+      "sourceName": "Simple Chance Experiments"
+    },
+    {
+      "id": "mt_Jvg8X0N5u0",
+      "name": "使用简单公式",
+      "sourceName": "Using Simple Formulae"
+    },
+    {
+      "id": "mt_K5jM7vlVhA",
+      "name": "乘法口诀",
+      "sourceName": "All times tables to 12×12"
+    },
+    {
+      "id": "mt_LlMl2PbaZe",
+      "name": "乘除 10、100、1000",
+      "sourceName": "Multiplying and dividing"
+    },
+    {
+      "id": "mt_ML5t7n2-U8",
+      "name": "三角形与平行四边形面积",
+      "sourceName": "Area of Triangles & Parallelograms"
+    },
+    {
+      "id": "mt_QqG6IdmTSE",
+      "name": "数位之间的十倍关系",
+      "sourceName": "Place Value × 10 Pattern"
+    },
+    {
+      "id": "mt_SXbZ3bC9z7",
+      "name": "比较分数大小",
+      "sourceName": "Comparing fractions (age 9+)"
+    },
+    {
+      "id": "mt_VhBH8wrFC6",
+      "name": "认识图画统计图与条形图",
+      "sourceName": "Picture & Bar Graphs"
+    },
+    {
+      "id": "mt_XLP1IM3Qbb",
+      "name": "多位数乘法",
+      "sourceName": "Long multiplication (age 10+)"
+    },
+    {
+      "id": "mt_b7T-CjOYUR",
+      "name": "约分",
+      "sourceName": "Simplifying Fractions"
+    },
+    {
+      "id": "mt_c29FaCTNsx",
+      "name": "图画统计与计数",
+      "sourceName": "Pictograms and tally charts"
+    },
+    {
+      "id": "mt_d7XktBQPxm",
+      "name": "数单位小正方体",
+      "sourceName": "Counting Unit Cubes"
+    },
+    {
+      "id": "mt_ebPelt-qAl",
+      "name": "等值分数",
+      "sourceName": "Equivalent fractions (age 9+)"
+    },
+    {
+      "id": "mt_ehGS_uVSJv",
+      "name": "加减互为逆运算",
+      "sourceName": "Inverse: addition undoes subtraction"
+    },
+    {
+      "id": "mt_eiB3-6pu6a",
+      "name": "长方形的面积与周长",
+      "sourceName": "Area and perimeter of rectangles"
+    },
+    {
+      "id": "mt_f67qGDhyfi",
+      "name": "生活里的数学",
+      "sourceName": "Connecting maths to real life"
+    },
+    {
+      "id": "mt_i2-QaXbyzB",
+      "name": "把图形分开求面积",
+      "sourceName": "Area by splitting shapes"
+    },
+    {
+      "id": "mt_i9rJbuFO3p",
+      "name": "把数量关系列成等式",
+      "sourceName": "Writing Algebraic Equations"
+    },
+    {
+      "id": "mt_iFFKZd-Vgv",
+      "name": "描述事件的可能性",
+      "sourceName": "Likelihood Language"
+    },
+    {
+      "id": "mt_jHgRQ4hR0g",
+      "name": "运算顺序",
+      "sourceName": "Order of operations"
+    },
+    {
+      "id": "mt_kDMKJ5Ztt6",
+      "name": "除以 10 和 100",
+      "sourceName": "Dividing by 10 and 100"
+    },
+    {
+      "id": "mt_kdWoAel3Zl",
+      "name": "认识十分之一",
+      "sourceName": "Tenths (age 9+)"
+    },
+    {
+      "id": "mt_nTL-owFJTF",
+      "name": "长方体体积",
+      "sourceName": "Volume of cuboids"
+    },
+    {
+      "id": "mt_nZkL5-XjRX",
+      "name": "因数对",
+      "sourceName": "Factor Pairs & Commutativity"
+    },
+    {
+      "id": "mt_oIzycTBeE4",
+      "name": "等号的意义",
+      "sourceName": "What the equals sign means"
+    },
+    {
+      "id": "mt_r8XnXwRA6g",
+      "name": "带刻度的图画统计图与条形图",
+      "sourceName": "Scaled picture and bar graphs"
+    },
+    {
+      "id": "mt_u5HkSxZECM",
+      "name": "读懂图画统计与计数",
+      "sourceName": "Pictograms and tally charts (age 6+)"
+    }
+  ],
+  "routes": [
+    {
+      "skillId": "decimal-compare",
+      "topicId": "mt_933BohS9BH",
+      "prerequisites": [
+        {
+          "topicId": "mt_933BohS9BH",
+          "prerequisiteId": "mt_IegHBHERVa",
+          "strength": "hard",
+          "reason": "Comparing decimals to 2dp (Y4) is prerequisite to comparing to 3dp"
+        },
+        {
+          "topicId": "mt_933BohS9BH",
+          "prerequisiteId": "mt_kdWoAel3Zl",
+          "strength": "soft",
+          "reason": "Thousandths understanding supports comparing decimals to 3dp"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_Ac7oMWhyPw",
+          "prerequisiteId": "mt_933BohS9BH",
+          "strength": "hard",
+          "reason": "Compare decimals to thousandths extends Y5 decimal comparison"
+        }
+      ]
+    },
+    {
+      "skillId": "decimal-scale",
+      "topicId": "mt_LlMl2PbaZe",
+      "prerequisites": [
+        {
+          "topicId": "mt_LlMl2PbaZe",
+          "prerequisiteId": "mt_kDMKJ5Ztt6",
+          "strength": "hard",
+          "reason": "Dividing by 10/100 (Y4 fractions context) is prerequisite to ×÷ by 10/100/1000 with decimals"
+        },
+        {
+          "topicId": "mt_LlMl2PbaZe",
+          "prerequisiteId": "mt_QqG6IdmTSE",
+          "strength": "hard",
+          "reason": "×10 place-value relationship is prerequisite to ×÷ by powers of 10"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_HLUqHJ9Y7n",
+          "prerequisiteId": "mt_LlMl2PbaZe",
+          "strength": "hard",
+          "reason": "Patterns in zeros when ×÷ by powers of 10 builds on fluent ×÷ by 10/100/1000"
+        }
+      ]
+    },
+    {
+      "skillId": "fraction-equivalent",
+      "topicId": "mt_ebPelt-qAl",
+      "prerequisites": [
+        {
+          "topicId": "mt_ebPelt-qAl",
+          "prerequisiteId": "mt_Ep7TDFuYUa",
+          "strength": "hard",
+          "reason": "Understanding equivalence conceptually is prerequisite to explaining algebraically"
+        },
+        {
+          "topicId": "mt_ebPelt-qAl",
+          "prerequisiteId": "mt_FP-mjXaq3B",
+          "strength": "hard",
+          "reason": "Generating equivalent fractions with visual models is prerequisite to algebraic explanation of equivalence"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_b7T-CjOYUR",
+          "prerequisiteId": "mt_ebPelt-qAl",
+          "strength": "hard",
+          "reason": "Simplifying fractions extends Y5 equivalent fractions concept"
+        }
+      ]
+    },
+    {
+      "skillId": "fraction-compare",
+      "topicId": "mt_SXbZ3bC9z7",
+      "prerequisites": [
+        {
+          "topicId": "mt_SXbZ3bC9z7",
+          "prerequisiteId": "mt_ebPelt-qAl",
+          "strength": "hard",
+          "reason": "Must generate equivalent fractions before using common denominators to compare"
+        },
+        {
+          "topicId": "mt_SXbZ3bC9z7",
+          "prerequisiteId": "mt_HnKbuCliNS",
+          "strength": "hard",
+          "reason": "Same-numerator/denom comparison is prerequisite to different-denom comparison"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_2ESZh70NyS",
+          "prerequisiteId": "mt_SXbZ3bC9z7",
+          "strength": "soft",
+          "reason": "Comparing fractions with different denominators requires constructing logical arguments"
+        }
+      ]
+    },
+    {
+      "skillId": "factor-identify",
+      "topicId": "mt_FHIAv6dfhU",
+      "prerequisites": [
+        {
+          "topicId": "mt_FHIAv6dfhU",
+          "prerequisiteId": "mt_K5jM7vlVhA",
+          "strength": "hard",
+          "reason": "Tables to 12×12 fluency is prerequisite to finding factor pairs up to 100"
+        },
+        {
+          "topicId": "mt_FHIAv6dfhU",
+          "prerequisiteId": "mt_nZkL5-XjRX",
+          "strength": "hard",
+          "reason": "Recognising factor pairs at Y4 is prerequisite to systematically finding all factor pairs"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_0Wg5F97osg",
+          "prerequisiteId": "mt_FHIAv6dfhU",
+          "strength": "hard",
+          "reason": "Factor/multiple knowledge is prerequisite to solving problems with them"
+        }
+      ]
+    },
+    {
+      "skillId": "factor-common",
+      "topicId": "mt_FHIAv6dfhU",
+      "prerequisites": [
+        {
+          "topicId": "mt_FHIAv6dfhU",
+          "prerequisiteId": "mt_K5jM7vlVhA",
+          "strength": "hard",
+          "reason": "Tables to 12×12 fluency is prerequisite to finding factor pairs up to 100"
+        },
+        {
+          "topicId": "mt_FHIAv6dfhU",
+          "prerequisiteId": "mt_nZkL5-XjRX",
+          "strength": "hard",
+          "reason": "Recognising factor pairs at Y4 is prerequisite to systematically finding all factor pairs"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_0Wg5F97osg",
+          "prerequisiteId": "mt_FHIAv6dfhU",
+          "strength": "hard",
+          "reason": "Factor/multiple knowledge is prerequisite to solving problems with them"
+        }
+      ]
+    },
+    {
+      "skillId": "algebra-expression",
+      "topicId": "mt_i9rJbuFO3p",
+      "prerequisites": [
+        {
+          "topicId": "mt_i9rJbuFO3p",
+          "prerequisiteId": "mt_4WaKWECpcv",
+          "strength": "hard",
+          "reason": "Writing algebraic expressions extends writing/interpreting numerical expressions"
+        },
+        {
+          "topicId": "mt_i9rJbuFO3p",
+          "prerequisiteId": "mt_jHgRQ4hR0g",
+          "strength": "soft",
+          "reason": "Solving equations uses order-of-operations understanding"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_3rTIyJDw7-",
+          "prerequisiteId": "mt_i9rJbuFO3p",
+          "strength": "soft",
+          "reason": "Distinguishing expression/equation/formula requires algebraic precision"
+        }
+      ]
+    },
+    {
+      "skillId": "algebra-equation",
+      "topicId": "mt_3JgrHY221M",
+      "prerequisites": [
+        {
+          "topicId": "mt_3JgrHY221M",
+          "prerequisiteId": "mt_oIzycTBeE4",
+          "strength": "hard",
+          "reason": "Finding unknowns in equations requires understanding what = means"
+        },
+        {
+          "topicId": "mt_3JgrHY221M",
+          "prerequisiteId": "mt_ehGS_uVSJv",
+          "strength": "soft",
+          "reason": "Solving missing-number problems benefits from knowing the inverse relationship"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_f67qGDhyfi",
+          "prerequisiteId": "mt_3JgrHY221M",
+          "strength": "soft",
+          "reason": "Representing unknown-number problems with equations exercises modelling at age 6-7"
+        }
+      ]
+    },
+    {
+      "skillId": "geometry-area",
+      "topicId": "mt_ML5t7n2-U8",
+      "prerequisites": [
+        {
+          "topicId": "mt_ML5t7n2-U8",
+          "prerequisiteId": "mt_eiB3-6pu6a",
+          "strength": "hard",
+          "reason": "Triangle/parallelogram area extends rectangle area formula"
+        },
+        {
+          "topicId": "mt_ML5t7n2-U8",
+          "prerequisiteId": "mt_AabJisinfi",
+          "strength": "soft",
+          "reason": "Triangle area formula (½ × b × h) requires understanding multiplying by ½"
+        },
+        {
+          "topicId": "mt_ML5t7n2-U8",
+          "prerequisiteId": "mt_Jvg8X0N5u0",
+          "strength": "soft",
+          "reason": "Using area formulae connects to the general skill of using formulae"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_i2-QaXbyzB",
+          "prerequisiteId": "mt_ML5t7n2-U8",
+          "strength": "hard",
+          "reason": "Decomposed or subtracted pieces are mostly triangles and parallelograms, so their areas must be found first"
+        }
+      ]
+    },
+    {
+      "skillId": "geometry-volume",
+      "topicId": "mt_nTL-owFJTF",
+      "prerequisites": [
+        {
+          "topicId": "mt_nTL-owFJTF",
+          "prerequisiteId": "mt_d7XktBQPxm",
+          "strength": "hard",
+          "reason": "Volume formula derives from counting-cubes understanding"
+        },
+        {
+          "topicId": "mt_nTL-owFJTF",
+          "prerequisiteId": "mt_XLP1IM3Qbb",
+          "strength": "soft",
+          "reason": "Computing l×w×h requires multi-digit multiplication"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_5TBUFnCy5-",
+          "prerequisiteId": "mt_nTL-owFJTF",
+          "strength": "hard",
+          "reason": "Composite volume requires volume formula for individual prisms"
+        }
+      ]
+    },
+    {
+      "skillId": "data-chart",
+      "topicId": "mt_r8XnXwRA6g",
+      "prerequisites": [
+        {
+          "topicId": "mt_r8XnXwRA6g",
+          "prerequisiteId": "mt_c29FaCTNsx",
+          "strength": "hard",
+          "reason": "Constructing simple pictograms/tables is prerequisite to scaled versions"
+        },
+        {
+          "topicId": "mt_r8XnXwRA6g",
+          "prerequisiteId": "mt_u5HkSxZECM",
+          "strength": "hard",
+          "reason": "Drawing scaled bar charts and pictograms requires axis, scale, label, and frequency vocabulary"
+        },
+        {
+          "topicId": "mt_r8XnXwRA6g",
+          "prerequisiteId": "mt_VhBH8wrFC6",
+          "strength": "hard",
+          "reason": "Single-unit bar graphs are prerequisite to scaled bar graphs"
+        }
+      ],
+      "unlocks": [
+        {
+          "topicId": "mt_ChjMU2GDJa",
+          "prerequisiteId": "mt_r8XnXwRA6g",
+          "strength": "hard",
+          "reason": "Scaled bar charts are prerequisite to continuous data and time graphs"
+        }
+      ]
+    },
+    {
+      "skillId": "data-chance",
+      "topicId": "mt_iFFKZd-Vgv",
+      "prerequisites": [],
+      "unlocks": [
+        {
+          "topicId": "mt_J4j7d3iAfg",
+          "prerequisiteId": "mt_iFFKZd-Vgv",
+          "strength": "hard",
+          "reason": "Conducting probability experiments and describing results requires knowing the language used to describe likelihood"
+        }
+      ]
+    }
+  ]
+}

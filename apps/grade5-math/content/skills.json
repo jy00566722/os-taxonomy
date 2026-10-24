@@ -1,0 +1,132 @@
+{
+  "modules": [
+    {
+      "id": "decimal",
+      "name": "小数与运算",
+      "number": "01",
+      "description": "把小数的大小与变化看清楚",
+      "symbol": "0.1"
+    },
+    {
+      "id": "fraction",
+      "name": "分数与数感",
+      "number": "02",
+      "description": "认识同样多，比较谁更多",
+      "symbol": "½"
+    },
+    {
+      "id": "factor",
+      "name": "因数与倍数",
+      "number": "03",
+      "description": "发现整数之间的小联系",
+      "symbol": "×"
+    },
+    {
+      "id": "algebra",
+      "name": "式与方程",
+      "number": "04",
+      "description": "用字母表达，找到未知数",
+      "symbol": "x"
+    },
+    {
+      "id": "geometry",
+      "name": "图形与测量",
+      "number": "05",
+      "description": "从平面到立体，量一量",
+      "symbol": "▱"
+    },
+    {
+      "id": "data",
+      "name": "统计与可能性",
+      "number": "06",
+      "description": "读懂数据，想想可能性",
+      "symbol": "▥"
+    }
+  ],
+  "skills": [
+    {
+      "id": "decimal-compare",
+      "moduleId": "decimal",
+      "name": "小数的大小比较",
+      "topicId": "mt_933BohS9BH",
+      "tip": "对齐数位，再从左往右比较。小数位数更多，不一定更大。"
+    },
+    {
+      "id": "decimal-scale",
+      "moduleId": "decimal",
+      "name": "小数乘除 10、100",
+      "topicId": "mt_LlMl2PbaZe",
+      "tip": "每个数字的数位发生变化；乘 10 是原来的 10 倍，除以 10 是原来的十分之一。"
+    },
+    {
+      "id": "fraction-equivalent",
+      "moduleId": "fraction",
+      "name": "等值分数",
+      "topicId": "mt_ebPelt-qAl",
+      "tip": "分子、分母同时乘或除以同一个非零数，分数的大小不变。"
+    },
+    {
+      "id": "fraction-compare",
+      "moduleId": "fraction",
+      "name": "分数的大小比较",
+      "topicId": "mt_SXbZ3bC9z7",
+      "tip": "先确认同一个整体，可以通分，也可以与二分之一比较。"
+    },
+    {
+      "id": "factor-identify",
+      "moduleId": "factor",
+      "name": "找一个数的因数",
+      "topicId": "mt_FHIAv6dfhU",
+      "tip": "能把一个整数整除的正整数，是它的因数。"
+    },
+    {
+      "id": "factor-common",
+      "moduleId": "factor",
+      "name": "找最小公倍数",
+      "topicId": "mt_FHIAv6dfhU",
+      "tip": "分别列出两个数的正倍数，找出最小的共同倍数。"
+    },
+    {
+      "id": "algebra-expression",
+      "moduleId": "algebra",
+      "name": "用字母表示数量关系",
+      "topicId": "mt_i9rJbuFO3p",
+      "tip": "字母可以表示未知或变化的数，先读清题目中数量之间的关系。"
+    },
+    {
+      "id": "algebra-equation",
+      "moduleId": "algebra",
+      "name": "求等式中的未知数",
+      "topicId": "mt_3JgrHY221M",
+      "tip": "等号两边表示相同的量；用相反的运算找到未知数，再代回检查。"
+    },
+    {
+      "id": "geometry-area",
+      "moduleId": "geometry",
+      "name": "三角形与平行四边形面积",
+      "topicId": "mt_ML5t7n2-U8",
+      "tip": "平行四边形面积是底乘对应的高；同底同高的三角形面积是它的一半。"
+    },
+    {
+      "id": "geometry-volume",
+      "moduleId": "geometry",
+      "name": "长方体的体积",
+      "topicId": "mt_nTL-owFJTF",
+      "tip": "想象一层放多少个单位小正方体，再看有几层：长 × 宽 × 高。"
+    },
+    {
+      "id": "data-chart",
+      "moduleId": "data",
+      "name": "读取条形图并比较",
+      "topicId": "mt_r8XnXwRA6g",
+      "tip": "先看对象、单位和刻度，再比较条形代表的数量。"
+    },
+    {
+      "id": "data-chance",
+      "moduleId": "data",
+      "name": "比较事件的可能性",
+      "topicId": "mt_iFFKZd-Vgv",
+      "tip": "每个球被摸到的机会相同时，数量多的颜色更可能被摸到，但不一定会摸到。"
+    }
+  ]
+}

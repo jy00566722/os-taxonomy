@@ -1,0 +1,1247 @@
+{
+  "version": "2026-10-22.1",
+  "questions": [
+    {
+      "id": "decimal-compare-1",
+      "skillId": "decimal-compare",
+      "purpose": "screen",
+      "kind": "choice",
+      "prompt": "0.8 与 0.75 比较，应该填哪个符号？",
+      "answer": "gt",
+      "explanation": "把数位对齐、末尾补零后比较，0.8 ＞ 0.75。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "decimal-compare-2",
+      "skillId": "decimal-compare",
+      "purpose": "confirm",
+      "kind": "choice",
+      "prompt": "3.09 与 3.9 比较，应该填哪个符号？",
+      "answer": "lt",
+      "explanation": "把数位对齐、末尾补零后比较，3.09 ＜ 3.9。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "decimal-compare-3",
+      "skillId": "decimal-compare",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "0.50 与 0.5 比较，应该填哪个符号？",
+      "answer": "eq",
+      "explanation": "把数位对齐、末尾补零后比较，0.50 ＝ 0.5。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "decimal-compare-4",
+      "skillId": "decimal-compare",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "2.07 与 2.7 比较，应该填哪个符号？",
+      "answer": "lt",
+      "explanation": "把数位对齐、末尾补零后比较，2.07 ＜ 2.7。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "decimal-compare-5",
+      "skillId": "decimal-compare",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "6.4 与 6.35 比较，应该填哪个符号？",
+      "answer": "gt",
+      "explanation": "把数位对齐、末尾补零后比较，6.4 ＞ 6.35。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "decimal-compare-6",
+      "skillId": "decimal-compare",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "0.308 与 0.38 比较，应该填哪个符号？",
+      "answer": "lt",
+      "explanation": "把数位对齐、末尾补零后比较，0.308 ＜ 0.38。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "decimal-scale-1",
+      "skillId": "decimal-scale",
+      "purpose": "screen",
+      "kind": "number",
+      "prompt": "3.45 × 10 = ？",
+      "answer": "34.5",
+      "explanation": "3.45 × 10 = 34.5。每个数字向更高的数位移动一位。"
+    },
+    {
+      "id": "decimal-scale-2",
+      "skillId": "decimal-scale",
+      "purpose": "confirm",
+      "kind": "number",
+      "prompt": "8.6 ÷ 10 = ？",
+      "answer": "0.86",
+      "explanation": "8.6 ÷ 10 = 0.86。每个数字向更低的数位移动一位。"
+    },
+    {
+      "id": "decimal-scale-3",
+      "skillId": "decimal-scale",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "0.72 × 100 = ？",
+      "answer": "72",
+      "explanation": "0.72 × 100 = 72。每个数字向更高的数位移动两位。"
+    },
+    {
+      "id": "decimal-scale-4",
+      "skillId": "decimal-scale",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "45.6 ÷ 100 = ？",
+      "answer": "0.456",
+      "explanation": "45.6 ÷ 100 = 0.456。每个数字向更低的数位移动两位。"
+    },
+    {
+      "id": "decimal-scale-5",
+      "skillId": "decimal-scale",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "0.306 × 100 = ？",
+      "answer": "30.6",
+      "explanation": "0.306 × 100 = 30.6。每个数字向更高的数位移动两位。"
+    },
+    {
+      "id": "decimal-scale-6",
+      "skillId": "decimal-scale",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "27.4 ÷ 10 = ？",
+      "answer": "2.74",
+      "explanation": "27.4 ÷ 10 = 2.74。每个数字向更低的数位移动一位。"
+    },
+    {
+      "id": "fraction-equivalent-1",
+      "skillId": "fraction-equivalent",
+      "purpose": "screen",
+      "kind": "fraction",
+      "prompt": "把 2/3 的分母变成 6，分子和分母要同时乘 2。请写出得到的完整分数。",
+      "answer": "4/6",
+      "explanation": "分子和分母同时乘 2，得到 4/6，与 2/3 一样大。",
+      "requiredDenominator": 6
+    },
+    {
+      "id": "fraction-equivalent-2",
+      "skillId": "fraction-equivalent",
+      "purpose": "confirm",
+      "kind": "fraction",
+      "prompt": "把 3/5 的分母变成 15，分子和分母要同时乘 3。请写出得到的完整分数。",
+      "answer": "9/15",
+      "explanation": "分子和分母同时乘 3，得到 9/15，与 3/5 一样大。",
+      "requiredDenominator": 15
+    },
+    {
+      "id": "fraction-equivalent-3",
+      "skillId": "fraction-equivalent",
+      "purpose": "practice",
+      "kind": "fraction",
+      "prompt": "把 1/4 的分母变成 12，分子和分母要同时乘 3。请写出得到的完整分数。",
+      "answer": "3/12",
+      "explanation": "分子和分母同时乘 3，得到 3/12，与 1/4 一样大。",
+      "requiredDenominator": 12
+    },
+    {
+      "id": "fraction-equivalent-4",
+      "skillId": "fraction-equivalent",
+      "purpose": "practice",
+      "kind": "fraction",
+      "prompt": "把 4/7 的分母变成 14，分子和分母要同时乘 2。请写出得到的完整分数。",
+      "answer": "8/14",
+      "explanation": "分子和分母同时乘 2，得到 8/14，与 4/7 一样大。",
+      "requiredDenominator": 14
+    },
+    {
+      "id": "fraction-equivalent-5",
+      "skillId": "fraction-equivalent",
+      "purpose": "retest",
+      "kind": "fraction",
+      "prompt": "把 3/8 的分母变成 16，分子和分母要同时乘 2。请写出得到的完整分数。",
+      "answer": "6/16",
+      "explanation": "分子和分母同时乘 2，得到 6/16，与 3/8 一样大。",
+      "requiredDenominator": 16
+    },
+    {
+      "id": "fraction-equivalent-6",
+      "skillId": "fraction-equivalent",
+      "purpose": "retest",
+      "kind": "fraction",
+      "prompt": "把 5/6 的分母变成 18，分子和分母要同时乘 3。请写出得到的完整分数。",
+      "answer": "15/18",
+      "explanation": "分子和分母同时乘 3，得到 15/18，与 5/6 一样大。",
+      "requiredDenominator": 18
+    },
+    {
+      "id": "fraction-compare-1",
+      "skillId": "fraction-compare",
+      "purpose": "screen",
+      "kind": "choice",
+      "prompt": "同一个整体下，2/3 与 3/4 比较，应该填哪个符号？",
+      "answer": "lt",
+      "explanation": "通分到分母 12：2/3 = 8/12，3/4 = 9/12，所以填“小于 ＜”。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "fraction-compare-2",
+      "skillId": "fraction-compare",
+      "purpose": "confirm",
+      "kind": "choice",
+      "prompt": "同一个整体下，5/6 与 3/4 比较，应该填哪个符号？",
+      "answer": "gt",
+      "explanation": "通分到分母 24：5/6 = 20/24，3/4 = 18/24，所以填“大于 ＞”。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "fraction-compare-3",
+      "skillId": "fraction-compare",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "同一个整体下，1/2 与 3/6 比较，应该填哪个符号？",
+      "answer": "eq",
+      "explanation": "通分到分母 12：1/2 = 6/12，3/6 = 6/12，所以填“等于 ＝”。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "fraction-compare-4",
+      "skillId": "fraction-compare",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "同一个整体下，3/5 与 2/3 比较，应该填哪个符号？",
+      "answer": "lt",
+      "explanation": "通分到分母 15：3/5 = 9/15，2/3 = 10/15，所以填“小于 ＜”。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "fraction-compare-5",
+      "skillId": "fraction-compare",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "同一个整体下，4/5 与 7/10 比较，应该填哪个符号？",
+      "answer": "gt",
+      "explanation": "通分到分母 50：4/5 = 40/50，7/10 = 35/50，所以填“大于 ＞”。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "fraction-compare-6",
+      "skillId": "fraction-compare",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "同一个整体下，5/8 与 2/3 比较，应该填哪个符号？",
+      "answer": "lt",
+      "explanation": "通分到分母 24：5/8 = 15/24，2/3 = 16/24，所以填“小于 ＜”。",
+      "options": [
+        {
+          "id": "gt",
+          "text": "大于 ＞"
+        },
+        {
+          "id": "eq",
+          "text": "等于 ＝"
+        },
+        {
+          "id": "lt",
+          "text": "小于 ＜"
+        }
+      ]
+    },
+    {
+      "id": "factor-identify-1",
+      "skillId": "factor-identify",
+      "purpose": "screen",
+      "kind": "choice",
+      "prompt": "下面哪个数是 24 的因数？",
+      "answer": "6",
+      "explanation": "24 ÷ 6 = 4，没有余数，所以 6 是 24 的因数。",
+      "options": [
+        {
+          "id": "5",
+          "text": "5"
+        },
+        {
+          "id": "6",
+          "text": "6"
+        },
+        {
+          "id": "7",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "id": "factor-identify-2",
+      "skillId": "factor-identify",
+      "purpose": "confirm",
+      "kind": "choice",
+      "prompt": "下面哪个数是 35 的因数？",
+      "answer": "5",
+      "explanation": "35 ÷ 5 = 7，没有余数，所以 5 是 35 的因数。",
+      "options": [
+        {
+          "id": "4",
+          "text": "4"
+        },
+        {
+          "id": "5",
+          "text": "5"
+        },
+        {
+          "id": "6",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "id": "factor-identify-3",
+      "skillId": "factor-identify",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "下面哪个数是 18 的因数？",
+      "answer": "3",
+      "explanation": "18 ÷ 3 = 6，没有余数，所以 3 是 18 的因数。",
+      "options": [
+        {
+          "id": "3",
+          "text": "3"
+        },
+        {
+          "id": "4",
+          "text": "4"
+        },
+        {
+          "id": "5",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "id": "factor-identify-4",
+      "skillId": "factor-identify",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "下面哪个数是 32 的因数？",
+      "answer": "8",
+      "explanation": "32 ÷ 8 = 4，没有余数，所以 8 是 32 的因数。",
+      "options": [
+        {
+          "id": "6",
+          "text": "6"
+        },
+        {
+          "id": "7",
+          "text": "7"
+        },
+        {
+          "id": "8",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "id": "factor-identify-5",
+      "skillId": "factor-identify",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "下面哪个数是 42 的因数？",
+      "answer": "6",
+      "explanation": "42 ÷ 6 = 7，没有余数，所以 6 是 42 的因数。",
+      "options": [
+        {
+          "id": "5",
+          "text": "5"
+        },
+        {
+          "id": "6",
+          "text": "6"
+        },
+        {
+          "id": "8",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "id": "factor-identify-6",
+      "skillId": "factor-identify",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "下面哪个数是 45 的因数？",
+      "answer": "9",
+      "explanation": "45 ÷ 9 = 5，没有余数，所以 9 是 45 的因数。",
+      "options": [
+        {
+          "id": "4",
+          "text": "4"
+        },
+        {
+          "id": "6",
+          "text": "6"
+        },
+        {
+          "id": "9",
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "id": "factor-common-1",
+      "skillId": "factor-common",
+      "purpose": "screen",
+      "kind": "number",
+      "prompt": "4 和 6 的最小公倍数是多少？",
+      "answer": "12",
+      "explanation": "12 可以同时被 4 和 6 整除，是它们最小的正公倍数。"
+    },
+    {
+      "id": "factor-common-2",
+      "skillId": "factor-common",
+      "purpose": "confirm",
+      "kind": "number",
+      "prompt": "3 和 8 的最小公倍数是多少？",
+      "answer": "24",
+      "explanation": "24 可以同时被 3 和 8 整除，是它们最小的正公倍数。"
+    },
+    {
+      "id": "factor-common-3",
+      "skillId": "factor-common",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "6 和 9 的最小公倍数是多少？",
+      "answer": "18",
+      "explanation": "18 可以同时被 6 和 9 整除，是它们最小的正公倍数。"
+    },
+    {
+      "id": "factor-common-4",
+      "skillId": "factor-common",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "5 和 10 的最小公倍数是多少？",
+      "answer": "10",
+      "explanation": "10 可以同时被 5 和 10 整除，是它们最小的正公倍数。"
+    },
+    {
+      "id": "factor-common-5",
+      "skillId": "factor-common",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "6 和 8 的最小公倍数是多少？",
+      "answer": "24",
+      "explanation": "24 可以同时被 6 和 8 整除，是它们最小的正公倍数。"
+    },
+    {
+      "id": "factor-common-6",
+      "skillId": "factor-common",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "4 和 10 的最小公倍数是多少？",
+      "answer": "20",
+      "explanation": "20 可以同时被 4 和 10 整除，是它们最小的正公倍数。"
+    },
+    {
+      "id": "algebra-expression-1",
+      "skillId": "algebra-expression",
+      "purpose": "screen",
+      "kind": "choice",
+      "prompt": "一本练习本 a 元，小禾买了 3 本，又买了一支 2 元的铅笔。一共花多少元？",
+      "answer": "correct",
+      "explanation": "3 本练习本一共 3a 元，再加铅笔的 2 元，合起来是 3a + 2 元。",
+      "options": [
+        {
+          "id": "sum",
+          "text": "a + 3 + 2"
+        },
+        {
+          "id": "correct",
+          "text": "3a + 2"
+        },
+        {
+          "id": "all",
+          "text": "5a"
+        }
+      ]
+    },
+    {
+      "id": "algebra-expression-2",
+      "skillId": "algebra-expression",
+      "purpose": "confirm",
+      "kind": "choice",
+      "prompt": "一本练习本 a 元，小禾买了 4 本，又买了一支 3 元的铅笔。一共花多少元？",
+      "answer": "correct",
+      "explanation": "4 本练习本一共 4a 元，再加铅笔的 3 元，合起来是 4a + 3 元。",
+      "options": [
+        {
+          "id": "sum",
+          "text": "a + 4 + 3"
+        },
+        {
+          "id": "correct",
+          "text": "4a + 3"
+        },
+        {
+          "id": "all",
+          "text": "7a"
+        }
+      ]
+    },
+    {
+      "id": "algebra-expression-3",
+      "skillId": "algebra-expression",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "一本练习本 a 元，小禾买了 5 本，又买了一支 4 元的铅笔。一共花多少元？",
+      "answer": "correct",
+      "explanation": "5 本练习本一共 5a 元，再加铅笔的 4 元，合起来是 5a + 4 元。",
+      "options": [
+        {
+          "id": "sum",
+          "text": "a + 5 + 4"
+        },
+        {
+          "id": "correct",
+          "text": "5a + 4"
+        },
+        {
+          "id": "all",
+          "text": "9a"
+        }
+      ]
+    },
+    {
+      "id": "algebra-expression-4",
+      "skillId": "algebra-expression",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "一本练习本 a 元，小禾买了 2 本，又买了一支 6 元的铅笔。一共花多少元？",
+      "answer": "correct",
+      "explanation": "2 本练习本一共 2a 元，再加铅笔的 6 元，合起来是 2a + 6 元。",
+      "options": [
+        {
+          "id": "sum",
+          "text": "a + 2 + 6"
+        },
+        {
+          "id": "correct",
+          "text": "2a + 6"
+        },
+        {
+          "id": "all",
+          "text": "8a"
+        }
+      ]
+    },
+    {
+      "id": "algebra-expression-5",
+      "skillId": "algebra-expression",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "一本练习本 a 元，小禾买了 6 本，又买了一支 5 元的铅笔。一共花多少元？",
+      "answer": "correct",
+      "explanation": "6 本练习本一共 6a 元，再加铅笔的 5 元，合起来是 6a + 5 元。",
+      "options": [
+        {
+          "id": "sum",
+          "text": "a + 6 + 5"
+        },
+        {
+          "id": "correct",
+          "text": "6a + 5"
+        },
+        {
+          "id": "all",
+          "text": "11a"
+        }
+      ]
+    },
+    {
+      "id": "algebra-expression-6",
+      "skillId": "algebra-expression",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "一本练习本 a 元，小禾买了 7 本，又买了一支 3 元的铅笔。一共花多少元？",
+      "answer": "correct",
+      "explanation": "7 本练习本一共 7a 元，再加铅笔的 3 元，合起来是 7a + 3 元。",
+      "options": [
+        {
+          "id": "sum",
+          "text": "a + 7 + 3"
+        },
+        {
+          "id": "correct",
+          "text": "7a + 3"
+        },
+        {
+          "id": "all",
+          "text": "10a"
+        }
+      ]
+    },
+    {
+      "id": "algebra-equation-1",
+      "skillId": "algebra-equation",
+      "purpose": "screen",
+      "kind": "number",
+      "prompt": "x + 7 = 19，x = ？",
+      "answer": "12",
+      "explanation": "x = 19 − 7 = 12。代回：12 + 7 = 19。"
+    },
+    {
+      "id": "algebra-equation-2",
+      "skillId": "algebra-equation",
+      "purpose": "confirm",
+      "kind": "number",
+      "prompt": "25 − x = 9，x = ？",
+      "answer": "16",
+      "explanation": "x = 25 − 9 = 16。代回：25 − 16 = 9。"
+    },
+    {
+      "id": "algebra-equation-3",
+      "skillId": "algebra-equation",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "x + 8 = 23，x = ？",
+      "answer": "15",
+      "explanation": "x = 23 − 8 = 15。代回：15 + 8 = 23。"
+    },
+    {
+      "id": "algebra-equation-4",
+      "skillId": "algebra-equation",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "30 − x = 11，x = ？",
+      "answer": "19",
+      "explanation": "x = 30 − 11 = 19。代回：30 − 19 = 11。"
+    },
+    {
+      "id": "algebra-equation-5",
+      "skillId": "algebra-equation",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "x + 12 = 31，x = ？",
+      "answer": "19",
+      "explanation": "x = 31 − 12 = 19。代回：19 + 12 = 31。"
+    },
+    {
+      "id": "algebra-equation-6",
+      "skillId": "algebra-equation",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "40 − x = 17，x = ？",
+      "answer": "23",
+      "explanation": "x = 40 − 17 = 23。代回：40 − 23 = 17。"
+    },
+    {
+      "id": "geometry-area-1",
+      "skillId": "geometry-area",
+      "purpose": "screen",
+      "kind": "number",
+      "prompt": "一个三角形的底是 8 厘米，对应的高是 5 厘米。面积是多少平方厘米？",
+      "answer": "20",
+      "explanation": "三角形面积 = 底 × 对应的高 ÷ 2 = 8 × 5 ÷ 2 = 20 平方厘米。",
+      "unit": "平方厘米",
+      "figure": {
+        "type": "triangle",
+        "base": 8,
+        "height": 5
+      }
+    },
+    {
+      "id": "geometry-area-2",
+      "skillId": "geometry-area",
+      "purpose": "confirm",
+      "kind": "number",
+      "prompt": "一个平行四边形的底是 6 厘米，对应的高是 4 厘米。面积是多少平方厘米？",
+      "answer": "24",
+      "explanation": "平行四边形面积 = 底 × 对应的高 = 6 × 4 = 24 平方厘米。",
+      "unit": "平方厘米",
+      "figure": {
+        "type": "parallelogram",
+        "base": 6,
+        "height": 4
+      }
+    },
+    {
+      "id": "geometry-area-3",
+      "skillId": "geometry-area",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "一个三角形的底是 10 厘米，对应的高是 6 厘米。面积是多少平方厘米？",
+      "answer": "30",
+      "explanation": "三角形面积 = 底 × 对应的高 ÷ 2 = 10 × 6 ÷ 2 = 30 平方厘米。",
+      "unit": "平方厘米",
+      "figure": {
+        "type": "triangle",
+        "base": 10,
+        "height": 6
+      }
+    },
+    {
+      "id": "geometry-area-4",
+      "skillId": "geometry-area",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "一个平行四边形的底是 9 厘米，对应的高是 4 厘米。面积是多少平方厘米？",
+      "answer": "36",
+      "explanation": "平行四边形面积 = 底 × 对应的高 = 9 × 4 = 36 平方厘米。",
+      "unit": "平方厘米",
+      "figure": {
+        "type": "parallelogram",
+        "base": 9,
+        "height": 4
+      }
+    },
+    {
+      "id": "geometry-area-5",
+      "skillId": "geometry-area",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "一个三角形的底是 12 厘米，对应的高是 5 厘米。面积是多少平方厘米？",
+      "answer": "30",
+      "explanation": "三角形面积 = 底 × 对应的高 ÷ 2 = 12 × 5 ÷ 2 = 30 平方厘米。",
+      "unit": "平方厘米",
+      "figure": {
+        "type": "triangle",
+        "base": 12,
+        "height": 5
+      }
+    },
+    {
+      "id": "geometry-area-6",
+      "skillId": "geometry-area",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "一个平行四边形的底是 7 厘米，对应的高是 6 厘米。面积是多少平方厘米？",
+      "answer": "42",
+      "explanation": "平行四边形面积 = 底 × 对应的高 = 7 × 6 = 42 平方厘米。",
+      "unit": "平方厘米",
+      "figure": {
+        "type": "parallelogram",
+        "base": 7,
+        "height": 6
+      }
+    },
+    {
+      "id": "geometry-volume-1",
+      "skillId": "geometry-volume",
+      "purpose": "screen",
+      "kind": "number",
+      "prompt": "一个长方体长 5 厘米、宽 3 厘米、高 2 厘米。体积是多少立方厘米？",
+      "answer": "30",
+      "explanation": "一层有 5 × 3 = 15 个单位小正方体，一共 2 层。体积 = 5 × 3 × 2 = 30 立方厘米。",
+      "unit": "立方厘米",
+      "figure": {
+        "type": "cuboid",
+        "base": 5,
+        "width": 3,
+        "height": 2
+      }
+    },
+    {
+      "id": "geometry-volume-2",
+      "skillId": "geometry-volume",
+      "purpose": "confirm",
+      "kind": "number",
+      "prompt": "一个长方体长 4 厘米、宽 3 厘米、高 3 厘米。体积是多少立方厘米？",
+      "answer": "36",
+      "explanation": "一层有 4 × 3 = 12 个单位小正方体，一共 3 层。体积 = 4 × 3 × 3 = 36 立方厘米。",
+      "unit": "立方厘米",
+      "figure": {
+        "type": "cuboid",
+        "base": 4,
+        "width": 3,
+        "height": 3
+      }
+    },
+    {
+      "id": "geometry-volume-3",
+      "skillId": "geometry-volume",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "一个长方体长 6 厘米、宽 2 厘米、高 4 厘米。体积是多少立方厘米？",
+      "answer": "48",
+      "explanation": "一层有 6 × 2 = 12 个单位小正方体，一共 4 层。体积 = 6 × 2 × 4 = 48 立方厘米。",
+      "unit": "立方厘米",
+      "figure": {
+        "type": "cuboid",
+        "base": 6,
+        "width": 2,
+        "height": 4
+      }
+    },
+    {
+      "id": "geometry-volume-4",
+      "skillId": "geometry-volume",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "一个长方体长 8 厘米、宽 3 厘米、高 2 厘米。体积是多少立方厘米？",
+      "answer": "48",
+      "explanation": "一层有 8 × 3 = 24 个单位小正方体，一共 2 层。体积 = 8 × 3 × 2 = 48 立方厘米。",
+      "unit": "立方厘米",
+      "figure": {
+        "type": "cuboid",
+        "base": 8,
+        "width": 3,
+        "height": 2
+      }
+    },
+    {
+      "id": "geometry-volume-5",
+      "skillId": "geometry-volume",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "一个长方体长 7 厘米、宽 2 厘米、高 3 厘米。体积是多少立方厘米？",
+      "answer": "42",
+      "explanation": "一层有 7 × 2 = 14 个单位小正方体，一共 3 层。体积 = 7 × 2 × 3 = 42 立方厘米。",
+      "unit": "立方厘米",
+      "figure": {
+        "type": "cuboid",
+        "base": 7,
+        "width": 2,
+        "height": 3
+      }
+    },
+    {
+      "id": "geometry-volume-6",
+      "skillId": "geometry-volume",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "一个长方体长 5 厘米、宽 4 厘米、高 3 厘米。体积是多少立方厘米？",
+      "answer": "60",
+      "explanation": "一层有 5 × 4 = 20 个单位小正方体，一共 3 层。体积 = 5 × 4 × 3 = 60 立方厘米。",
+      "unit": "立方厘米",
+      "figure": {
+        "type": "cuboid",
+        "base": 5,
+        "width": 4,
+        "height": 3
+      }
+    },
+    {
+      "id": "data-chart-1",
+      "skillId": "data-chart",
+      "purpose": "screen",
+      "kind": "number",
+      "prompt": "图中是三个小组收集的废纸质量。第二组比第一组多收集多少千克？",
+      "answer": "6",
+      "explanation": "第二组 18 千克，第一组 12 千克，相差 18 − 12 = 6 千克。",
+      "unit": "千克",
+      "chart": [
+        {
+          "label": "第一组",
+          "value": 12
+        },
+        {
+          "label": "第二组",
+          "value": 18
+        },
+        {
+          "label": "第三组",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "data-chart-2",
+      "skillId": "data-chart",
+      "purpose": "confirm",
+      "kind": "number",
+      "prompt": "图中是三个小组收集的废纸质量。第二组比第一组多收集多少千克？",
+      "answer": "6",
+      "explanation": "第二组 15 千克，第一组 9 千克，相差 15 − 9 = 6 千克。",
+      "unit": "千克",
+      "chart": [
+        {
+          "label": "第一组",
+          "value": 9
+        },
+        {
+          "label": "第二组",
+          "value": 15
+        },
+        {
+          "label": "第三组",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "id": "data-chart-3",
+      "skillId": "data-chart",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "图中是三个小组收集的废纸质量。第二组比第一组多收集多少千克？",
+      "answer": "8",
+      "explanation": "第二组 24 千克，第一组 16 千克，相差 24 − 16 = 8 千克。",
+      "unit": "千克",
+      "chart": [
+        {
+          "label": "第一组",
+          "value": 16
+        },
+        {
+          "label": "第二组",
+          "value": 24
+        },
+        {
+          "label": "第三组",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "data-chart-4",
+      "skillId": "data-chart",
+      "purpose": "practice",
+      "kind": "number",
+      "prompt": "图中是三个小组收集的废纸质量。第二组比第一组多收集多少千克？",
+      "answer": "6",
+      "explanation": "第二组 20 千克，第一组 14 千克，相差 20 − 14 = 6 千克。",
+      "unit": "千克",
+      "chart": [
+        {
+          "label": "第一组",
+          "value": 14
+        },
+        {
+          "label": "第二组",
+          "value": 20
+        },
+        {
+          "label": "第三组",
+          "value": 18
+        }
+      ]
+    },
+    {
+      "id": "data-chart-5",
+      "skillId": "data-chart",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "图中是三个小组收集的废纸质量。第二组比第一组多收集多少千克？",
+      "answer": "9",
+      "explanation": "第二组 27 千克，第一组 18 千克，相差 27 − 18 = 9 千克。",
+      "unit": "千克",
+      "chart": [
+        {
+          "label": "第一组",
+          "value": 18
+        },
+        {
+          "label": "第二组",
+          "value": 27
+        },
+        {
+          "label": "第三组",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "id": "data-chart-6",
+      "skillId": "data-chart",
+      "purpose": "retest",
+      "kind": "number",
+      "prompt": "图中是三个小组收集的废纸质量。第二组比第一组多收集多少千克？",
+      "answer": "12",
+      "explanation": "第二组 32 千克，第一组 20 千克，相差 32 − 20 = 12 千克。",
+      "unit": "千克",
+      "chart": [
+        {
+          "label": "第一组",
+          "value": 20
+        },
+        {
+          "label": "第二组",
+          "value": 32
+        },
+        {
+          "label": "第三组",
+          "value": 28
+        }
+      ]
+    },
+    {
+      "id": "data-chance-1",
+      "skillId": "data-chance",
+      "purpose": "screen",
+      "kind": "choice",
+      "prompt": "袋子里有 4 个红球、2 个蓝球，球的大小和质地相同。摇匀后不看颜色摸一个，哪种说法正确？",
+      "answer": "red",
+      "explanation": "红球更多，所以更可能摸到红球。“更可能”不代表“一定”。",
+      "options": [
+        {
+          "id": "red",
+          "text": "摸到红球的可能性更大"
+        },
+        {
+          "id": "blue",
+          "text": "摸到蓝球的可能性更大"
+        },
+        {
+          "id": "equal",
+          "text": "摸到两种颜色的可能性相同"
+        }
+      ]
+    },
+    {
+      "id": "data-chance-2",
+      "skillId": "data-chance",
+      "purpose": "confirm",
+      "kind": "choice",
+      "prompt": "袋子里有 2 个红球、5 个蓝球，球的大小和质地相同。摇匀后不看颜色摸一个，哪种说法正确？",
+      "answer": "blue",
+      "explanation": "蓝球更多，所以更可能摸到蓝球。“更可能”不代表“一定”。",
+      "options": [
+        {
+          "id": "red",
+          "text": "摸到红球的可能性更大"
+        },
+        {
+          "id": "blue",
+          "text": "摸到蓝球的可能性更大"
+        },
+        {
+          "id": "equal",
+          "text": "摸到两种颜色的可能性相同"
+        }
+      ]
+    },
+    {
+      "id": "data-chance-3",
+      "skillId": "data-chance",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "袋子里有 3 个红球、3 个蓝球，球的大小和质地相同。摇匀后不看颜色摸一个，哪种说法正确？",
+      "answer": "equal",
+      "explanation": "红球和蓝球一样多，每个球被摸到的机会相同，所以摸到两种颜色的可能性相同。",
+      "options": [
+        {
+          "id": "red",
+          "text": "摸到红球的可能性更大"
+        },
+        {
+          "id": "blue",
+          "text": "摸到蓝球的可能性更大"
+        },
+        {
+          "id": "equal",
+          "text": "摸到两种颜色的可能性相同"
+        }
+      ]
+    },
+    {
+      "id": "data-chance-4",
+      "skillId": "data-chance",
+      "purpose": "practice",
+      "kind": "choice",
+      "prompt": "袋子里有 5 个红球、1 个蓝球，球的大小和质地相同。摇匀后不看颜色摸一个，哪种说法正确？",
+      "answer": "red",
+      "explanation": "红球更多，所以更可能摸到红球。“更可能”不代表“一定”。",
+      "options": [
+        {
+          "id": "red",
+          "text": "摸到红球的可能性更大"
+        },
+        {
+          "id": "blue",
+          "text": "摸到蓝球的可能性更大"
+        },
+        {
+          "id": "equal",
+          "text": "摸到两种颜色的可能性相同"
+        }
+      ]
+    },
+    {
+      "id": "data-chance-5",
+      "skillId": "data-chance",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "袋子里有 2 个红球、6 个蓝球，球的大小和质地相同。摇匀后不看颜色摸一个，哪种说法正确？",
+      "answer": "blue",
+      "explanation": "蓝球更多，所以更可能摸到蓝球。“更可能”不代表“一定”。",
+      "options": [
+        {
+          "id": "red",
+          "text": "摸到红球的可能性更大"
+        },
+        {
+          "id": "blue",
+          "text": "摸到蓝球的可能性更大"
+        },
+        {
+          "id": "equal",
+          "text": "摸到两种颜色的可能性相同"
+        }
+      ]
+    },
+    {
+      "id": "data-chance-6",
+      "skillId": "data-chance",
+      "purpose": "retest",
+      "kind": "choice",
+      "prompt": "袋子里有 7 个红球、3 个蓝球，球的大小和质地相同。摇匀后不看颜色摸一个，哪种说法正确？",
+      "answer": "red",
+      "explanation": "红球更多，所以更可能摸到红球。“更可能”不代表“一定”。",
+      "options": [
+        {
+          "id": "red",
+          "text": "摸到红球的可能性更大"
+        },
+        {
+          "id": "blue",
+          "text": "摸到蓝球的可能性更大"
+        },
+        {
+          "id": "equal",
+          "text": "摸到两种颜色的可能性相同"
+        }
+      ]
+    }
+  ]
+}

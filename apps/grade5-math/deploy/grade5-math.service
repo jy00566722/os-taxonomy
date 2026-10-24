@@ -1,0 +1,28 @@
+[Unit]
+Description=Xiaobu Grade 5 Math
+After=network.target
+
+[Service]
+Type=simple
+User=grade5math
+Group=grade5math
+WorkingDirectory=/var/lib/grade5-math
+Environment=GOMAXPROCS=1
+Environment=GOMEMLIMIT=96MiB
+EnvironmentFile=-/etc/sysconfig/grade5-math
+ExecStart=/opt/grade5-math/current/bin/math-server -addr 127.0.0.1:18081 -content /opt/grade5-math/current/content -web /var/www/grade5-math-current -db /var/lib/grade5-math/math.db $MATH_EXTRA_FLAGS
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+MemoryMax=192M
+CPUQuota=75%
+LimitNOFILE=4096
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/grade5-math
+
+[Install]
+WantedBy=multi-user.target
